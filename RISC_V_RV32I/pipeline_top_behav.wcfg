@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="pipeline_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="pipeline_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="3,030.928 ns"></ZoomEndTime>
+      <Cursor1Time time="1,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="237"></NameColumnWidth>
+      <ValueColumnWidth column_width="78"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/pipeline_top/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_top/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_top/Fetch/PC_Fetch_Stage" type="array">
+      <obj_property name="ElementShortName">PC_Fetch_Stage[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_Fetch_Stage[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_top/Fetch/Instruction_Fetch" type="array">
+      <obj_property name="ElementShortName">Instruction_Fetch[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instruction_Fetch[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_top/Decode/Instruction_Decode_Stage" type="array">
+      <obj_property name="ElementShortName">Instruction_Decode_Stage[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instruction_Decode_Stage[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_top/Decode/Imm_Ext_Execute" type="array">
+      <obj_property name="ElementShortName">Imm_Ext_Execute[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Imm_Ext_Execute[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_top/Execute/RD_Execute" type="array">
+      <obj_property name="ElementShortName">RD_Execute[4:0]</obj_property>
+      <obj_property name="ObjectShortName">RD_Execute[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_top/Execute/MemWrite_Memory" type="logic">
+      <obj_property name="ElementShortName">MemWrite_Memory</obj_property>
+      <obj_property name="ObjectShortName">MemWrite_Memory</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_top/Execute/RegWrite_Memory" type="logic">
+      <obj_property name="ElementShortName">RegWrite_Memory</obj_property>
+      <obj_property name="ObjectShortName">RegWrite_Memory</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_top/Execute/ForwardA_E" type="array">
+      <obj_property name="ElementShortName">ForwardA_E[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardA_E[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_top/Execute/Src_A" type="array">
+      <obj_property name="ElementShortName">Src_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Src_A[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_top/Execute/ForwardB_E" type="array">
+      <obj_property name="ElementShortName">ForwardB_E[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardB_E[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_top/Execute/Src_B" type="array">
+      <obj_property name="ElementShortName">Src_B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Src_B[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_top/Execute/ResultE" type="array">
+      <obj_property name="ElementShortName">ResultE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ResultE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_top/Execute/ALU_Result_Memory" type="array">
+      <obj_property name="ElementShortName">ALU_Result_Memory[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_Result_Memory[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_top/Memory/ALU_Result_Writeback" type="array">
+      <obj_property name="ElementShortName">ALU_Result_Writeback[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_Result_Writeback[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_top/Memory/RD_Writeback" type="array">
+      <obj_property name="ElementShortName">RD_Writeback[4:0]</obj_property>
+      <obj_property name="ObjectShortName">RD_Writeback[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline_top/WriteBack/Result_Writeback" type="array">
+      <obj_property name="ElementShortName">Result_Writeback[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Result_Writeback[31:0]</obj_property>
+   </wvobject>
+</wave_config>
